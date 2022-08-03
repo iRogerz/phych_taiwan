@@ -99,6 +99,12 @@
 		35D4811E289A9A460008E205 /* psych */ = {
 			isa = PBXGroup;
 			children = (
+				35D4814F289A9AB70008E205 /* Model */,
+				35D48150289A9ABD0008E205 /* ViewModel */,
+				35D48151289A9AD90008E205 /* View */,
+				35D48153289A9AE80008E205 /* Controller */,
+				35D48155289A9B1F0008E205 /* API */,
+				35D48154289A9B050008E205 /* Utils */,
 				35D4811F289A9A460008E205 /* AppDelegate.swift */,
 				35D48121289A9A460008E205 /* SceneDelegate.swift */,
 				35D48123289A9A460008E205 /* ViewController.swift */,
@@ -125,6 +131,48 @@
 				35D48142289A9A480008E205 /* psychUITestsLaunchTests.swift */,
 			);
 			path = psychUITests;
+			sourceTree = "<group>";
+		};
+		35D4814F289A9AB70008E205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35D48150289A9ABD0008E205 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		35D48151289A9AD90008E205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35D48153289A9AE80008E205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35D48154289A9B050008E205 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		35D48155289A9B1F0008E205 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,7 +490,6 @@
 				INFOPLIST_FILE = psych/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +517,6 @@
 				INFOPLIST_FILE = psych/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
