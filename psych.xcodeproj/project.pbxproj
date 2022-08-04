@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5425EBBA2E301923E28471 /* Pods_psychTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D257946DF49BDD31F54C89 /* Pods_psychTests.framework */; };
 		35D48120289A9A460008E205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4811F289A9A460008E205 /* AppDelegate.swift */; };
 		35D48122289A9A460008E205 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D48121289A9A460008E205 /* SceneDelegate.swift */; };
 		35D48124289A9A460008E205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D48123289A9A460008E205 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		35D48137289A9A480008E205 /* psychTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D48136289A9A480008E205 /* psychTests.swift */; };
 		35D48141289A9A480008E205 /* psychUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D48140289A9A480008E205 /* psychUITests.swift */; };
 		35D48143289A9A480008E205 /* psychUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D48142289A9A480008E205 /* psychUITestsLaunchTests.swift */; };
+		35D48157289A9BD90008E205 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35D48156289A9BD90008E205 /* GoogleService-Info.plist */; };
+		4032D051762881DC183BD816 /* Pods_psych.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3211E159EA6824D0D5A219D0 /* Pods_psych.framework */; };
+		8464DC5759F7DF7DB4278610 /* Pods_psych_psychUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6929BD6E74C3A42E14E0EB4 /* Pods_psych_psychUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3211E159EA6824D0D5A219D0 /* Pods_psych.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_psych.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D4811C289A9A460008E205 /* psych.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = psych.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D4811F289A9A460008E205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35D48121289A9A460008E205 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		35D4813C289A9A480008E205 /* psychUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = psychUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D48140289A9A480008E205 /* psychUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = psychUITests.swift; sourceTree = "<group>"; };
 		35D48142289A9A480008E205 /* psychUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = psychUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35D48156289A9BD90008E205 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49009DCC4470BEB1003BF866 /* Pods-psych-psychUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-psych-psychUITests.debug.xcconfig"; path = "Target Support Files/Pods-psych-psychUITests/Pods-psych-psychUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B7A1600738919B328FF859D /* Pods-psychTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-psychTests.debug.xcconfig"; path = "Target Support Files/Pods-psychTests/Pods-psychTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83C2A90C2A5D593ED78A171E /* Pods-psych.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-psych.debug.xcconfig"; path = "Target Support Files/Pods-psych/Pods-psych.debug.xcconfig"; sourceTree = "<group>"; };
+		92D257946DF49BDD31F54C89 /* Pods_psychTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_psychTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B435C56934495B8E141E05D9 /* Pods-psychTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-psychTests.release.xcconfig"; path = "Target Support Files/Pods-psychTests/Pods-psychTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAE3A1EAE1522C38B7293CC7 /* Pods-psych.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-psych.release.xcconfig"; path = "Target Support Files/Pods-psych/Pods-psych.release.xcconfig"; sourceTree = "<group>"; };
+		CDB0BEEEBDAF4FCF4343D98E /* Pods-psych-psychUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-psych-psychUITests.release.xcconfig"; path = "Target Support Files/Pods-psych-psychUITests/Pods-psych-psychUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6929BD6E74C3A42E14E0EB4 /* Pods_psych_psychUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_psych_psychUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4032D051762881DC183BD816 /* Pods_psych.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5425EBBA2E301923E28471 /* Pods_psychTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8464DC5759F7DF7DB4278610 /* Pods_psych_psychUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				35D48135289A9A480008E205 /* psychTests */,
 				35D4813F289A9A480008E205 /* psychUITests */,
 				35D4811D289A9A460008E205 /* Products */,
+				EF597DABFA836D74E66090D3 /* Pods */,
+				AF71799F7DA9BB859F668926 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +130,7 @@
 				35D48125289A9A460008E205 /* Main.storyboard */,
 				35D48128289A9A480008E205 /* Assets.xcassets */,
 				35D4812A289A9A480008E205 /* LaunchScreen.storyboard */,
+				35D48156289A9BD90008E205 /* GoogleService-Info.plist */,
 				35D4812D289A9A480008E205 /* Info.plist */,
 			);
 			path = psych;
@@ -175,6 +195,30 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		AF71799F7DA9BB859F668926 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3211E159EA6824D0D5A219D0 /* Pods_psych.framework */,
+				F6929BD6E74C3A42E14E0EB4 /* Pods_psych_psychUITests.framework */,
+				92D257946DF49BDD31F54C89 /* Pods_psychTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF597DABFA836D74E66090D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83C2A90C2A5D593ED78A171E /* Pods-psych.debug.xcconfig */,
+				CAE3A1EAE1522C38B7293CC7 /* Pods-psych.release.xcconfig */,
+				49009DCC4470BEB1003BF866 /* Pods-psych-psychUITests.debug.xcconfig */,
+				CDB0BEEEBDAF4FCF4343D98E /* Pods-psych-psychUITests.release.xcconfig */,
+				6B7A1600738919B328FF859D /* Pods-psychTests.debug.xcconfig */,
+				B435C56934495B8E141E05D9 /* Pods-psychTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35D48146289A9A480008E205 /* Build configuration list for PBXNativeTarget "psych" */;
 			buildPhases = (
+				275064FD9BCAB6948DCAD694 /* [CP] Check Pods Manifest.lock */,
 				35D48118289A9A460008E205 /* Sources */,
 				35D48119289A9A460008E205 /* Frameworks */,
 				35D4811A289A9A460008E205 /* Resources */,
+				DD0D7D368F38D44CEFDC9D22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35D48149289A9A480008E205 /* Build configuration list for PBXNativeTarget "psychTests" */;
 			buildPhases = (
+				30B43ADBA0104501F3F06543 /* [CP] Check Pods Manifest.lock */,
 				35D4812E289A9A480008E205 /* Sources */,
 				35D4812F289A9A480008E205 /* Frameworks */,
 				35D48130289A9A480008E205 /* Resources */,
@@ -217,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35D4814C289A9A480008E205 /* Build configuration list for PBXNativeTarget "psychUITests" */;
 			buildPhases = (
+				7C14E2C601D6F0F6881CC1AF /* [CP] Check Pods Manifest.lock */,
 				35D48138289A9A480008E205 /* Sources */,
 				35D48139289A9A480008E205 /* Frameworks */,
 				35D4813A289A9A480008E205 /* Resources */,
+				7A91A315F1D34E3A1A7A9565 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D4812C289A9A480008E205 /* LaunchScreen.storyboard in Resources */,
+				35D48157289A9BD90008E205 /* GoogleService-Info.plist in Resources */,
 				35D48129289A9A480008E205 /* Assets.xcassets in Resources */,
 				35D48127289A9A460008E205 /* Main.storyboard in Resources */,
 			);
@@ -300,6 +350,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		275064FD9BCAB6948DCAD694 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-psych-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30B43ADBA0104501F3F06543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-psychTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A91A315F1D34E3A1A7A9565 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-psych-psychUITests/Pods-psych-psychUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-psych-psychUITests/Pods-psych-psychUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-psych-psychUITests/Pods-psych-psychUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C14E2C601D6F0F6881CC1AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-psych-psychUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD0D7D368F38D44CEFDC9D22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-psych/Pods-psych-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-psych/Pods-psych-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-psych/Pods-psych-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		35D48118289A9A460008E205 /* Sources */ = {
@@ -480,6 +633,7 @@
 		};
 		35D48147289A9A480008E205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C2A90C2A5D593ED78A171E /* Pods-psych.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -507,6 +661,7 @@
 		};
 		35D48148289A9A480008E205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE3A1EAE1522C38B7293CC7 /* Pods-psych.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -534,6 +689,7 @@
 		};
 		35D4814A289A9A480008E205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7A1600738919B328FF859D /* Pods-psychTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +710,7 @@
 		};
 		35D4814B289A9A480008E205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B435C56934495B8E141E05D9 /* Pods-psychTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -574,6 +731,7 @@
 		};
 		35D4814D289A9A480008E205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49009DCC4470BEB1003BF866 /* Pods-psych-psychUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -592,6 +750,7 @@
 		};
 		35D4814E289A9A480008E205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB0BEEEBDAF4FCF4343D98E /* Pods-psych-psychUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
