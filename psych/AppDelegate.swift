@@ -6,19 +6,22 @@
 //
 
 import UIKit
+import SnapKit
 import FirebaseCore
+import FirebaseAuth
+import FirebaseStorage
 import FirebaseFirestore
+import SDWebImage
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // 進用firebase log
+        FirebaseConfiguration.shared.setLoggerLevel(FirebaseLoggerLevel.min)
+        
         FirebaseApp.configure()
-
-        let db = Firestore.firestore()
         return true
     }
 

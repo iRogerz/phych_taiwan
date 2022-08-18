@@ -7,7 +7,7 @@ hello, I'm Roger, an IOS Developer
 * Firebase
 
 ## Features structure
-* MVCVM structure
+* MVVM structure
 
 
 ## Demo
